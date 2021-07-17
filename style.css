@@ -1,0 +1,79 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.container, nav{
+  margin: auto;
+}
+
+.container{
+  margin-top: 30px;
+  width: 760px;
+  background-color:rgba(0,0,0, 0.45);
+  border-radius: 20px;
+  padding: 40px;
+  font-size: 12px;
+}
+
+header , nav{
+  text-align: center;
+}
+
+nav{
+  padding: 10px;
+  background-color: lime;
+}
+
+.logo{
+  width: 150px;
+}
+
+h1{
+  color: lime;
+  margin-top:0px;
+  margin-bottom: 5px;
+}
+
+button{
+  font-size: 9px;
+}
+
+section{
+  margin: 10px;
+  height: 100px;
+}
+
+h2, .address{
+  margin-bottom: 5px;
+}
+
+.left, .right{
+  display: inline-block;
+}
+
+.address::before{
+  content: "\21A6";
+  margin-right: 5px;
+}
+
+.bar-Gino22, .bar-Mike24,.bar-Fede154{
+  border-radius: 5px;
+  height: 20px;
+}
+
+.bar-Gino22{
+  background-color: burlywood;
+  width: 300px;
+}
+
+.bar-Mike24{
+  background-color: green;
+  width: 550px;
+}
+
+.bar-Fede154{
+  background-color: coral;
+  width: 125px;
+}
